@@ -1,0 +1,10 @@
+Project: Web-Based Loader for Real-time Application Generation (RAG) using Groq with DataStax and Cassio, Langchain
+
+We will utilize the WebBaseLoader library to load data from the website.
+With the assistance of the WebBaseLoader library, we will read the entire content.
+After reading the data, it will be divided into chunks based on token size. These chunks will be used in embedding techniques.
+We will convert these chunks into vectors using embedding techniques such as Ollama embedding and OpenAI embedding.
+Since website content can be very large, resulting in a considerable number of vectors, we will need to store them. This process, known as vector storage, will be implemented using Astra DB.
+Astra DB will be employed to store the vector data.
+Using Cassio, we will establish a connection to Astra DB.
+This connection will enable us to query any required data specifically.

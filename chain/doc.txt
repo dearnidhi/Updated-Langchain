@@ -1,0 +1,10 @@
+
+Project: Langchain Series - Advanced RAG Q&A Chatbot with Chain and Retrievers Using Langchain
+
+We start with a dataset collected from various sources such as PDFs, Excel sheets, and websites.
+The dataset is loaded using different data ingestion techniques available in Langchain.
+Transformation is applied to the dataset, where larger PDFs are broken down into manageable chunks.
+Chunks are converted into vectors and stored in a vector store.
+Utilizing prompts and specific data selection techniques, we employ the concept of Chain and Retriever.
+In the advanced RAG pipeline, we use the LLM model within the Chain and Retriever framework.
+Based on the prompt provided, we extract the desired information.
